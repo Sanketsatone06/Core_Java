@@ -1,0 +1,19 @@
+package Day_06;
+
+public class Homework_p1 {
+
+	public static void main(String[] args) {
+		
+		int [] arr1= {34,56,45,67,67};
+		
+		int check = 67;
+		for(int i =0; i<arr1.length;i++) {
+			if ( check == arr1[i] ) {
+				System.out.println(i);
+
+			}
+					}
+
+	}
+
+}

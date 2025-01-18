@@ -9,10 +9,11 @@ public class Classwork_p2 {
 		int sum[]= new int[arr2.length];
 		
 		
-		for(int i=0; i<6; i++) {
+		for(int i=0; i<arr2.length; i++) {
 			sum[i]= arr2[i] + arr3[i];
 			System.out.print(sum[i]+ "\t ");
 		}
+		System.out.println();
 		System.out.println();
 		System.out.println();
 

@@ -1,0 +1,44 @@
+package Day_10;
+
+public class Homework_p {
+	public class Main {
+		public static void main(String[] args) {
+	}
+	Employee employee = new Employee();
+    Student std = new Student();
+    
+    float basic = 20000;
+    employee.grosssalary(basic);
+    
+    std.info();
+    std.avg();
+	 }
+		}
+
+	}
+
+	//2. Create a class Employee. Create a method grosssalary( ) in the class. Calculate the gross salary of employee by adding 50% of bonus in the basic salary.
+	class Employee {
+		public void grosssalary(float basic) {
+			float gross =basic + basic * 0.50f ;
+			System.out.println("Gross salary is "+ gross);
+		}
+	}
+
+	//3. Take name age and marks of three subjects of the student. Calculate the average marks. Take two different methods for personal information and marks.
+	class Student {
+		public void info() {
+			String name = "Nayan";
+			int age = 22;
+			System.out.println("my name is "+ name + " and age is " + age);
+		}
+		public void avg() {
+			int sub1 = 76;
+			int sub2 = 79;
+			int sub3 = 91;
+			
+			float avg = (sub1+ sub2 + sub3)/ 3;
+			System.out.println("average is "+ avg);
+		}
+	}
+}

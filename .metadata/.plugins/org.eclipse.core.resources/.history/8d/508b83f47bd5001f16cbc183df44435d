@@ -1,0 +1,33 @@
+public class Employee {
+    // Attributes
+    private String name;
+    private double basicSalary;
+    private double bonus;
+
+    // Constructor
+    public Employee(String name, double basicSalary, double bonus) {
+        this.name = name;
+        this.basicSalary = basicSalary;
+        this.bonus = bonus;
+    }
+
+    // Getter for name
+    public String getName() {
+        return name;
+    }
+
+    // Method to calculate gross salary
+    public double grossSalary() {
+        double gross = basicSalary + (0.5 * bonus);
+        return gross;
+    }
+
+    // Main method to test the class
+    public static void main(String[] args) {
+        // Create an Employee object
+        Employee emp = new Employee("John Doe", 50000, 10000);
+        
+        // Calculate and display the gross salary
+        System.out.println("Gross Salary of " + emp.getName() + ": " + emp.grossSalary());
+    }
+}

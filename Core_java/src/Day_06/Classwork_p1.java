@@ -14,7 +14,6 @@ public class Classwork_p1 {
 		}
 		
 		System.out.println("addition of aaray of element is "+ sum);
-		System.out.println();
 	}
 	
 }

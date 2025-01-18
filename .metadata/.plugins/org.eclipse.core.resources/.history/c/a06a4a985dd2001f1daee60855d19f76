@@ -1,0 +1,15 @@
+package Day_06;
+
+public class Homework_p1 {
+
+	public static void main(String[] args) {
+		
+		int [] arr1= {34,56,45,67,67};
+		
+//		int num = arr1[0];
+		
+		System.out.println(arr1[2]);
+	
+	}
+
+}
