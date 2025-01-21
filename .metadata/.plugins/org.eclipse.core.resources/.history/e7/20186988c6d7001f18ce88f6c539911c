@@ -1,0 +1,28 @@
+package day_11;
+
+public class Homework_p3 {
+	
+	private int length;
+	private int width;
+	
+	public void getlength( int length) {
+		this.length=length;
+	}
+	public int length() {
+		return length;
+	}
+	
+	public void getwidth(int width) {
+		this.width=width;
+	}
+	
+	public int getwidth() {
+		return width;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

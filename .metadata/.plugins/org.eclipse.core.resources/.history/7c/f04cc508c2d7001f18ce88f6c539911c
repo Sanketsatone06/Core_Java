@@ -1,0 +1,13 @@
+package day_11;
+
+public class Homework_p3 {
+	
+	private int length;
+	private int width;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

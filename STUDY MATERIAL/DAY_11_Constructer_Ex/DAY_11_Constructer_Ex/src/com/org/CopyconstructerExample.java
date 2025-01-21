@@ -11,6 +11,7 @@ public class CopyconstructerExample {
 		
 		CopyconstructerExample c1 = new CopyconstructerExample(20,10);
 		CopyconstructerExample c2 = new CopyconstructerExample(40,10);
+		CopyconstructerExample c3 = new CopyconstructerExample(50,10);
 		
 	}
 
