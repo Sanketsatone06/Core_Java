@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Core_java {
+module day23hw {
 }
