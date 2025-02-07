@@ -2,7 +2,7 @@ package Day_20;
 
 import java.util.Scanner;  
 
-// Custom exception class
+
 class MyException extends Exception {  
     public MyException(String message) {  
         super(message);  
