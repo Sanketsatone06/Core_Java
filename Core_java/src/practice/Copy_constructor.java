@@ -9,7 +9,7 @@ public class Copy_constructor {
 	public static void main(String[] args) {
 		
 		Copy_constructor c1 = new Copy_constructor(10,5);
-		Copy_constructor c2 = new Copy_constructor(10 0,70);
+		Copy_constructor c2 = new Copy_constructor(10 ,70);
 	}
 
 }

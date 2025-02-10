@@ -6,7 +6,9 @@
     <fullyQualifiedTypeName name="Day_13.Static_Nonstatic"/>
     <fullyQualifiedTypeName name="Day_13.Static_Nonstatic.details"/>
     <fullyQualifiedTypeName name="Day_13.classworkp_3.second"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="practice.Method_overriding.A"/>
+    <fullyQualifiedTypeName name="practice.Method_overriding.B"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
